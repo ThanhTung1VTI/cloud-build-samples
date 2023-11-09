@@ -1,6 +1,6 @@
 steps:
-  - id: test-builds-successfully
+  - id: test-builds-succe:ssfully
     name: gcr.io/google.com/cloudsdktool/cloud-sdk
-    dir: $PWD
+    dir: "/home/tung_nguyenthanh1/cloud-build-samples"
     script: |
       gcloud builds submit 
